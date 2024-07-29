@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Earned Value Analysis Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Earned Value Analysis Calculator</h1>
+    <div class="input-container">
+        <label for="pv">Enter Planned Value (PV):</label>
+        <input type="text" id="pv">
+        <label for="ev">Enter Earned Value (EV):</label>
+        <input type="text" id="ev">
+        <label for="ac">Enter Actual Cost (AC):</label>
+        <input type="text" id="ac">
+        <label for="sac">Enter Schedule at Completion (SAC):</label>
+        <input type="text" id="sac">
+        <label for="bac">Enter Budget at Completion (BAC):</label>
+        <input type="text" id="bac">
+        <button onclick="calculatePerformance()">Calculate</button>
+    </div>
+    <div class="result-container">
+        <h2>Performance Metrics</h2>
+        <p><strong>Schedule Variance (SV):</strong> <span id="result-sv">N/A</span></p>
+        <p><strong>Cost Variance (CV):</strong> <span id="result-cv">N/A</span></p>
+        <p><strong>Cost Performance Index (CPI):</strong> <span id="result-cpi">N/A</span></p>
+        <p><strong>Schedule Performance Index (SPI):</strong> <span id="result-spi">N/A</span></p>
+        <p><strong>Estimate at Completion (EAC):</strong> <span id="result-eac">N/A</span></p>
+        <p><strong>Time Estimate at Completion (TEAC):</strong> <span id="result-teac">N/A</span></p>
+        <p><strong>Performance of the Project:</strong> <span id="result-performance">N/A</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

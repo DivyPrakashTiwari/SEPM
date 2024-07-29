@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a Windows XP-inspired background color */
+body {
+    background-color: #008080;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+/* Style the calculator container */
+#calculator {
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the input and button inside the calculator */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #008080;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the results container */
+#results {
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings with a Windows XP feel */
+h1, h2 {
+    color: #008080;
+}
+
+/* Style the spans where results are displayed */
+span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add a Windows XP window frame effect to the calculator */
+#calculator {
+    box-shadow: 0 0 0 5px #008080, 0 0 0 10px #000;
+}
+
+/* Style the button with a Windows XP button look */
+button {
+    background-color: #008080;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Style the labels for the input field */
+label {
+    display: block;
+    text-align: left;
+    color: #008080;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the spans with a Windows XP border effect */
+#results span {
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+}

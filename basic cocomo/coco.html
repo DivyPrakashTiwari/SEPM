@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic COCOMO Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="coco.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Basic COCOMO Calculator</h1>
+    <input type="text" id="code-kloc" placeholder="Enter KLOC">
+<button onclick="calculateCOCOMO()">Calculate</button>
+ 
+    <div id="results">
+        <h2>Organic Values</h2>
+        <p>Number of Months Needed: <span id="organic-months">-</span></p>
+        <p>Number of People Needed: <span id="organic-people">-</span></p>
+        
+        <h2>Semi-Detached Values</h2>
+        <p>Number of Months Needed: <span id="semi-detached-months">-</span></p>
+        <p>Number of People Needed: <span id="semi-detached-people">-</span></p>
+        
+        <h2>Embedded Values</h2>
+        <p>Number of Months Needed: <span id="embedded-months">-</span></p>
+        <p>Number of People Needed: <span id="embedded-people">-</span></p>
+        <canvas id="bar-chart" width="400" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
